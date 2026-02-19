@@ -16,3 +16,26 @@ Smart Contract Methods:
 (2)claim_task
 (3)submit_task
 (4)approve_task
+
+The Algorand smart contract acts as an escrow and task lifecycle manager:
+> Locks the reward amount when a task is created
+> Ensures only the assigned worker can submit work
+> Releases payment only after creator approval
+> Prevents disputes through transparent on‑chain logic
+
+The task lifecycle goes through the following processes:
+> OPEN - Task created, reward locked in escrow
+> CLAIMED - Worker assigned to task
+> SUBMITTED - Worker completed and submitted proof
+> APPROVED - Creator approved -> payment released
+
+Contract exposes four main methods:
+> create_task -> Locks funds and initializes tasks
+> claim_task -> Assigns a worker
+> submit_task -> Marks task as completed
+> approve_task -> Releases escrow payment
+
+WHY ALGORAND?
+> Instant finality -> no waiting for confirmations
+> Low fees -> ideal for micro-payments
+> Secure smart contract execution for escrow logic
