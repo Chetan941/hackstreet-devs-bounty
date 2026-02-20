@@ -120,6 +120,11 @@ npm install
 npm start
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Screenshots:
+<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/417909ff-3380-4096-8e68-8aaed300ea60" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/da8f8844-2dbc-45b4-8c6f-241a1380308d" />
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 USAGE GUIDE
 
