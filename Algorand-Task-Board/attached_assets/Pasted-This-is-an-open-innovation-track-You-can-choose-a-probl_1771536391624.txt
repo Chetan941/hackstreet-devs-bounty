@@ -1,0 +1,133 @@
+This is an open innovation track. You can choose a problem statement from RIFT's curated list College_Hackathon_Project_Ideas_Algorand.docx or propose your own original idea. The only requirement is that your project must meaningfully leverage the Algorand blockchain and use AlgoKit as the primary development toolkit.
+
+Algorand & AlgoKit — What You Must Use
+
+
+All smart contracts must be deployed to the Algorand Testnet
+AlgoKit must be used as the primary development framework
+You must provide your App ID (Testnet) at submission
+Your solution must interact with Algorand in a meaningful way — not just as a payment layer
+
+What is AlgoKit?
+✓  AlgoKit is Algorand's official development toolkit for building, testing, and deploying smart contracts
+✓  Documentation and resources available at: https://developer.algorand.org/algokit/
+✓  Use AlgoKit to scaffold your project: algokit init
+
+
+
+
+Problem Statement Selection
+
+
+Problem statements for this track will be published on the RIFT website during the official selection window:
+
+Selection Window
+19 February 2026  •  6:00 PM – 8:00 PM
+Visit the RIFT website to view and select your problem statement
+
+
+Alternatively, you may propose your own original problem and solution, provided it:
+Uses Algorand blockchain meaningfully
+Uses AlgoKit for development and deployment
+Solves a real-world problem
+Demonstrates technical depth and innovation
+
+What to Build
+
+
+Your project should include a complete, working application. Possible directions include (but are not limited to):
+Decentralized Finance (DeFi) tools — lending, staking, liquidity pools
+NFT platforms — minting, marketplaces, royalties
+DAO governance systems — on-chain voting, proposal management
+Supply chain / provenance tracking
+Identity & credential verification
+Gaming and digital asset platforms
+Carbon credits / sustainability tracking
+Cross-border payments and remittances
+
+Submission Requirements
+
+
+⚠  All of the following are MANDATORY. Missing any item will result in disqualification.
+⚠  Problem Statement selected via RIFT website (selection window: 19 Feb, 6:00 PM – 8:00 PM)
+⚠  GitHub Repository (public) with complete source code
+⚠  Hosted / Live URL (publicly accessible frontend or demo)
+⚠  App ID (Testnet) — your deployed Algorand smart contract application ID
+⚠  Demo video (2–3 min) posted on LinkedIn, tagging RIFT's official LinkedIn page: https://www.linkedin.com/company/rift-pwioi/
+
+
+
+
+README.md Must Include
+
+
+Project title and description
+Problem statement selected (or description of your original idea)
+Live demo URL
+LinkedIn demo video URL
+App ID (Testnet) and Testnet explorer link
+Architecture overview — smart contract + frontend interaction
+Tech stack — AlgoKit, smart contract language (PyTEAL / Beaker / TEALScript), frontend
+Installation & setup instructions
+Usage guide with screenshots
+Known limitations
+Team members and roles
+
+Demo Video Requirements
+
+
+Duration: 2–3 minutes
+Platform: LinkedIn (must be PUBLIC)
+Must tag RIFT's official LinkedIn page: https://www.linkedin.com/company/rift-pwioi/
+Must show a live working demo of your application
+Must explain your architecture and Algorand integration
+Must demonstrate smart contract interaction on Testnet
+
+Evaluation Criteria
+
+
+#
+Criterion
+Description
+1
+Problem Clarity
+Clear understanding of the chosen problem and its constraints
+2
+Solution Accuracy
+Correctness of the Algorand-based implementation
+3
+Technical Depth
+Smart contract quality, AlgoKit usage, on-chain architecture
+4
+Innovation & Thinking
+Creativity, novel use of Algorand capabilities
+5
+Presentation
+Demo video quality and clarity of explanation
+
+
+Tips for a Strong Submission
+
+
+What judges love to see:
+✓  A real problem being solved — not just a demo for demo's sake
+✓  Clean, auditable smart contract code with comments
+✓  Smooth UX that hides blockchain complexity from the end user
+✓  Proper use of AlgoKit features (debugging, testing, deployment pipeline)
+✓  Testnet deployment with verifiable App ID
+
+
+
+
+⚠  DISQUALIFICATION — Immediate disqualification if any of the following apply:
+✗  No Algorand smart contract deployed on Testnet
+✗  AlgoKit not used as the development framework
+✗  No App ID submitted
+✗  No live deployment or hosted URL provided
+✗  No LinkedIn demo video posted, or video is not public
+✗  Video does not tag RIFT's official LinkedIn page
+✗  GitHub repository is private or empty
+✗  Submission after the deadline
+
+
+
