@@ -1,5 +1,5 @@
-🚀 AlgoTrust – Decentralized Credential Verification on Algorand
-📌 Project Title & Description
+ AlgoTrust – Decentralized Credential Verification on Algorand
+ Project Title & Description
 
 AlgoTrust is a decentralized credential verification platform built on the Algorand Testnet using AlgoKit as the primary development framework.
 
@@ -39,7 +39,7 @@ Our solution builds a decentralized verification infrastructure using Algorand s
 
 🎥 LinkedIn Demo Video URL
 
-https://www.linkedin.com/posts/your-demo-video-link
+[https://www.linkedin.com/posts/your-demo-video-link](https://www.linkedin.com/posts/chetan941_pwioi-rift26-hackathon-activity-7430438996780019712-XGKd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEUdPiMB6TkViwbCj2Jt5kQ0F1KVbgy2Lx4)
 
 
 ⛓ App ID (Algorand Testnet)
@@ -132,7 +132,7 @@ cd frontend
 npm install
 npm start
 
-🧪 Usage Guide (With Screenshots)
+🧪 Usage Guide 
 1️⃣ Connect Wallet
 
 Open the application
@@ -165,7 +165,11 @@ App queries smart contract
 
 Verification status displayed instantly
 
-📸 Screenshot: Verification result page
+📸 Screenshot: 
+<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/3a77123e-3661-407b-bb1d-3bc6f6ef10ca" />
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/807e87f6-17c9-4b14-b85f-d33ddd60f7d4" />
+
+
 
 ⚠ Known Limitations
 
