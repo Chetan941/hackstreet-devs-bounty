@@ -1,201 +1,182 @@
- AlgoTrust – Decentralized Credential Verification on Algorand
- Project Title & Description
+AlgoTrust
+Decentralized Credential Verification on Algorand
 
-AlgoTrust is a decentralized credential verification platform built on the Algorand Testnet using AlgoKit as the primary development framework.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-The platform enables institutions to issue tamper-proof digital credentials (certificates, IDs, academic achievements) directly on-chain. Employers, universities, and third parties can verify credentials instantly without relying on centralized databases.
+PROJECT TITLE AND DESCRIPTION
 
-By leveraging Algorand smart contracts, AlgoTrust ensures:
+AlgoTrust is a decentralized credential verification platform built on the Algorand Testnet using AlgoKit.
 
-Immutable credential storage
+Institutions issue tamper proof digital credentials such as certificates, IDs, and academic achievements directly on chain. Employers, universities, and third parties verify credentials instantly without relying on centralized databases.
 
-Instant verification
+Key guarantees
+• Immutable credential storage
+• Instant verification
+• Fraud prevention
+• Transparent revocation tracking
+• Low cost fast transactions
 
-Fraud prevention
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Transparent revocation tracking
+PROBLEM STATEMENT
 
-Low-cost and fast transactions
+Category: Identity and Credential Verification
 
-🧠 Problem Statement Selected
+Current systems are
+• Centralized and vulnerable to tampering
+• Time consuming to validate
+• Costly for cross border verification
+• Prone to certificate forgery
 
-Category: Identity & Credential Verification
+AlgoTrust provides a trustless and transparent verification system using Algorand smart contracts on Testnet.
 
-Traditional credential verification systems are:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Centralized and vulnerable to tampering
+LIVE DEMO
 
-Time-consuming to validate
+https://algo-zip-integration--nasrinvs1016.replit.app
 
-Costly for cross-border verification
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Prone to certificate forgery
+DEMO VIDEO
 
-Our solution builds a decentralized verification infrastructure using Algorand smart contracts deployed on Testnet via AlgoKit, ensuring trustless, fast, and transparent validation.
+https://www.linkedin.com/posts/chetan941_pwioi-rift26-hackathon-activity-7430438996780019712-XGKd
 
-🌐 Live Demo URL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[https://your-live-demo-url.com](https://algo-zip-integration--nasrinvs1016.replit.app)
-
-🎥 LinkedIn Demo Video URL
-
-[https://www.linkedin.com/posts/your-demo-video-link](https://www.linkedin.com/posts/chetan941_pwioi-rift26-hackathon-activity-7430438996780019712-XGKd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEUdPiMB6TkViwbCj2Jt5kQ0F1KVbgy2Lx4)
-
-
-⛓ App ID (Algorand Testnet)
+APP ID ON ALGORAND TESTNET
 
 App ID: 755807600n
 
-Testnet Explorer Link:
+Explorer
 https://testnet.algoexplorer.io/application/123456789
 
-🏗 Architecture Overview
-🔹 Smart Contract Layer (Algorand Testnet)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Developed using AlgoKit
+ARCHITECTURE OVERVIEW
 
-Written in Beaker (PyTEAL)
+Smart Contract Layer
+• Built with AlgoKit
+• Written in Beaker PyTEAL
+• Deployed on Algorand Testnet
+• Handles issuance, verification, revocation, metadata hash storage
 
-Deployed to Algorand Testnet
+Frontend Layer
+• React.js
+• Pera Wallet integration
+• AlgoKit client for contract interaction
 
-Handles:
+System Flow
+1 Institution connects wallet
+2 Institution issues credential and stores hash on chain
+3 User shares verification ID
+4 Verifier queries smart contract
+5 Contract returns verification status
 
-Credential issuance
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Credential verification
+TECH STACK
 
-Revocation logic
+• Algorand Testnet
+• AlgoKit
+• Beaker PyTEAL
+• React.js
+• Pera Wallet
+• AlgoExplorer
+• AlgoKit CLI
 
-On-chain metadata hash storage
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔹 Frontend Layer
+INSTALLATION AND SETUP
 
-Built using React.js
+Prerequisites
+• Node.js v18 or higher
+• Python 3.10 or higher
+• AlgoKit installed
+• Algorand Testnet account
 
-Integrated with Pera Wallet
-
-Connects to Algorand Testnet
-
-Interacts with deployed smart contract via AlgoKit client
-
-🔹 System Flow
-
-Institution connects wallet
-
-Institution issues credential → hash stored on-chain
-
-Credential holder shares verification ID
-
-Verifier queries smart contract
-
-Smart contract returns verification status
-
-🛠 Tech Stack
-Layer	Technology Used
-Blockchain	Algorand Testnet
-Framework	AlgoKit
-Smart Contract	Beaker (PyTEAL)
-Frontend	React.js
-Wallet	Pera Wallet
-Explorer	AlgoExplorer Testnet
-Deployment	AlgoKit CLI
-⚙ Installation & Setup Instructions
-🔹 Prerequisites
-
-Node.js (v18+)
-
-Python 3.10+
-
-AlgoKit installed
-
-Algorand Testnet account
-
-Install AlgoKit:
-
+Install AlgoKit
 pip install algokit
 
-Verify installation:
-
+Verify
 algokit --version
-🔹 Clone Repository
+
+Clone
 git clone https://github.com/your-username/algotrust.git
+
 cd algotrust
-🔹 Bootstrap Project
+
+Bootstrap
 algokit project bootstrap all
-🔹 Deploy Smart Contract to Testnet
+
+Deploy
 algokit deploy testnet
 
-After deployment, note the generated App ID and update the frontend configuration.
+Update App ID in frontend config
 
-🔹 Run Frontend
+Run frontend
 cd frontend
 npm install
 npm start
 
-🧪 Usage Guide 
-1️⃣ Connect Wallet
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Open the application
+USAGE GUIDE
 
-Connect Pera Wallet
+Connect Wallet
+• Open app
+• Connect Pera Wallet
+• Switch to Testnet
 
-Switch network to Testnet
+Issue Credential
+• Enter recipient address
+• Upload credential data
+• Confirm transaction
+• Hash stored on chain
 
-📸 Screenshot: Wallet connection page
+Verify Credential
+• Enter credential ID
+• Click Verify
+• Status shown instantly
 
-2️⃣ Issue Credential
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Enter recipient Algorand address
+KNOWN LIMITATIONS
 
-Upload credential details
+• Testnet only
+• No IPFS storage yet
+• Basic UI
+• No multi admin governance
+• No mobile support
 
-Confirm transaction
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Smart contract stores credential hash on-chain
+TEAM
 
-📸 Screenshot: Credential issuance interface
+Chetan R (TEAM LEAD) - 
+Blockchain Integration
 
-3️⃣ Verify Credential
+Ashfaq Hyder C S - 
+Smart Contract Developer
 
-Enter credential ID
+Arjun Ajithan - 
+UI UX and Demo
 
-Click “Verify”
-
-App queries smart contract
-
-Verification status displayed instantly
-
-📸 Screenshot: 
-<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/3a77123e-3661-407b-bb1d-3bc6f6ef10ca" />
-<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/807e87f6-17c9-4b14-b85f-d33ddd60f7d4" />
+Kavya K.M - 
+Frontend Developer
 
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-⚠ Known Limitations
-
-Currently deployed only on Testnet
-
-No IPFS integration (metadata hash only)
-
-Basic UI (functionality-focused)
-
-No multi-admin governance for institutions
-
-No mobile app support yet
-
-👥 Team Members & Roles
-Name	Role
-Ashfaq Hyder C S	Smart Contract Developer (AlgoKit & PyTEAL)
-Kavya km 	Frontend Developer
-Chetan R	Blockchain Integration
-Arjun Ajithan	UI/UX Design & Demo Video
-✅ Compliance Summary
+COMPLIANCE SUMMARY
 
 ✔ Smart contract deployed on Algorand Testnet
-✔ AlgoKit used as primary development toolkit
+✔ AlgoKit used as primary toolkit
 ✔ App ID included
-✔ Live URL provided
-✔ LinkedIn demo video included
-✔ Meaningful smart contract interaction
-✔ Complete architecture documentation
-✔ Installation and usage guide provided
+✔ Live demo provided
+✔ Demo video included
+✔ Smart contract interaction implemented
+✔ Full architecture documented
+✔ Setup and usage guide provided
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
