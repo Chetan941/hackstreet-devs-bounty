@@ -6,7 +6,6 @@
 <p align="center">
 
 <!-- Status Badges -->
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Testnet-Algorand-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Hackathon-RIFT%2026-purple?style=for-the-badge"/>
 
