@@ -26,15 +26,6 @@
 
 ---
 
-## 🌐 Live Demo
-
-<p align="center">
-<a href="https://algo-zip-integration--nasrinvs1016.replit.app">
-<img src="https://img.shields.io/badge/Launch%20Live%20Demo-Click%20Here-success?style=for-the-badge&logo=vercel"/>
-</a>
-</p>
-
----
 
 ## 🎬 Demo Video
 
